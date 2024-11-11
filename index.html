@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina Login</title>
+    <script>
+        function botao() {
+var email = document.getElementById("email").value;
+var senha = document.getElementById("senha").value;
+
+if(email == "victor" && senha == "123"){
+    window.location.href = "prince.html";
+}
+else{
+    document.getElementById("erro").innerHTML = "Email ou Senha Incorretos";
+}
+}
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="fundoesquerdo">
+            <div id="sla">
+            
+            </div>
+        </div>
+        <div class="fundodireito">
+            <div class="login">
+                <br>
+                <h1 id="texto2">Login</h1>
+            <br>
+            <input type="email" placeholder="Email" id="email">
+            <br>
+            <input type="password" placeholder="Senha" id="senha">
+            <br>
+            <button onclick="botao()" id="bnt">Continuar</button>
+            <p id="erro"></p>
+            <div id="divsenai">
+              <img src="imagens/imagens login/senai.png" id="logosenai">
+            </div>
+            <div id="redes">
+                <img src="imagens/imagens login/instagram-logo-24.png" id="redes">
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

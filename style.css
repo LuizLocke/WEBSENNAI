@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagens/imagens\ login/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+ .fundoesquerdo{
+    width: 50%;
+    height: 100%;
+}
+   #sla{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 310px;
+}
+
+ .fundodireito{
+    width: 50%;
+    height: 100%;
+}
+   .login{
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+    translate: 207px 133px;
+}
+      #texto2{
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        translate: 24px 0px;
+}
+      #email{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+    height: 35px;
+    width: 350px;
+    padding: 7px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    translate: 24px 0px;
+}
+      #senha{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+    height: 35px;
+    width: 350px;
+    padding: 7px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    translate: 24px 0px;
+}
+       input::placeholder{
+    color: black;
+}
+#bnt{
+    height: 35px;
+    width: 350px;
+    translate: 24px 0px;
+    margin: 5px 0px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#divsenai {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+#logosenai{
+    height: 100px;
+    width: 100px;
+    translate: 0px -5px;
+}
+#redes {
+    display: flex;
+    justify-content: flex-end;
+}
+#erro{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    display: flex;
+    align-items: center;
+}
